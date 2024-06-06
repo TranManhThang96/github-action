@@ -10,3 +10,7 @@ jobs:
           echo "Hello World2"
       - name: Print goodbye
         run: echo "Done - bye!"
+      - name: Install Nodejs
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
