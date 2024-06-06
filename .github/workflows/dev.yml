@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - master
       - 'dev-*' # dev-new, dev-feature
       - 'feat/**' # feat/new, feat/new/button
     paths-ignore:
